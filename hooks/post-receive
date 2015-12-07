@@ -1,2 +1,3 @@
 #!/bin/sh
 curl http://lfmdev.cogknit.com:8088/jenkins/git/notifyCommit?url=git@github.com:vijethas/repos.test.com.git
+echo "Build Triggered"
