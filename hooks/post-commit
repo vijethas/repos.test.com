@@ -1,3 +1,4 @@
 #!/bin/sh
-curl http://lfmdev.cogknit.com:8088/jenkins/git/notifyCommit?url=git@github.com:vijethas/repos.test.com.git
+#/usr/bin/curl -X POST http://lfmdev.cogknit.com:8088/jenkins/git/notifyCommit?url=git@github.com:vijethas/repos.test.com.git
+/usr/bin/curl -X POST http://lfmdev.cogknit.com:8088/job/Test//build?token=gittest
 echo "Build Triggered"
